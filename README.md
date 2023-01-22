@@ -11,7 +11,7 @@ curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
 nvm install node 
 
 <!-- (host a static website)  -->
-npm i serve
+npm install -g serve
 
 screen serve -s build -p 4000
 
