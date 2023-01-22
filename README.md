@@ -13,6 +13,8 @@ nvm install node
 <!-- (host a static website)  -->
 npm i serve
 
+screen serve -s build -p 4000
+
 <!-- (eg. screen serve -s build -p 4000) - targets build folder and starts it on another screen -->
 
 # Backend ubuntu 20.04
